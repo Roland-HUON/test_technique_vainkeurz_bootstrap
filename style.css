@@ -1,0 +1,42 @@
+@import url(css/reset.css);
+@import url(css/bootstrap.css);
+@import url(css/font.css);
+@import url(css/button.css);
+@import url(css/main.css);
+@import url(css/home/layout_home.css);
+@import url(css/home/img_home.css);
+@import url(css/home/text_home.css);
+body{
+    background-image: url(assets/images/home/attraction_background.jpg);
+    background-size: cover;
+}
+h1{
+    font-size: 28px;
+}
+h2{
+    font-size: 20px;
+    font-weight: 500;
+}
+h2>span{
+    font-weight: bold;
+}
+@media screen and (max-width: 1000px){
+    .container{
+        max-width: 100% !important;
+        padding-right: 0;
+        padding-left: 0;
+        margin-right: unset;
+        margin-left: unset;
+    }
+}
+@media screen and (max-width:780px) {
+    .contentAside{
+        max-width: 100%;
+    }
+    .imageBillet{
+        justify-content: center;
+    }
+    .container{
+        margin-left: 15px;
+    }
+}

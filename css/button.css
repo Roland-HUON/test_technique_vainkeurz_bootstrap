@@ -1,0 +1,22 @@
+.btn{
+    font-family: 'Sharp Sans', sans-serif;
+    font-weight: bold;
+    color: white;
+    border: unset;
+}
+.red{
+    background-color: #E30916;
+    font-size: 16px;
+    border-radius: 10px;
+    padding: 10px 20px;
+    line-height: 20px;
+}
+.green{
+    background-color: #009E17;
+    border: unset;
+    font-size: 17.45px;
+    border-radius: 5px;
+    padding: 12px 16px;
+    width: 272px;
+    height: 45px;
+}

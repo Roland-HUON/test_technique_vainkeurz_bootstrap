@@ -1,0 +1,63 @@
+.row{
+    height:100vh;
+    align-items: center;
+    gap: 32px;
+}
+.mainContent{
+    height: 616px;
+    background-color: white;
+    border-radius: 4px;
+    padding-left: 0px;
+    padding-right: 0px;
+    color: #1463AE;
+}
+.form-control{
+    border: 0px;
+    border-radius: 4px;
+    /* color: rgba(200, 200, 200, 0.1); */
+}
+.imageBillet:hover::after{
+    animation: transformer infinite 3s;
+}
+.imageBillet:hover::before{
+    animation: transformer infinite 3s;
+}
+.imageArtifice{
+    position: relative;
+    z-index: 5;
+}
+#end{
+    display: flex;
+    justify-content: end;
+}
+a{
+    color: white;
+}
+a:hover{
+    color: white;
+}
+form{
+    padding: 0px 20px;
+}
+
+@keyframes rotate {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+@keyframes transformer {
+    0% {
+        transform: rotate(0deg);
+        width: 100%;
+    }
+    50%{
+        transform: rotate(180deg);
+        width: 50%;
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}

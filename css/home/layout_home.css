@@ -1,0 +1,76 @@
+body::after{
+    background-image: url('../../assets/images/home/cesar.svg');
+    background-size: 356px 327px;
+    display: inline-block;
+    width: 356px; 
+    height: 327px;
+    content:"";
+    position: absolute;
+    z-index: 5;
+    bottom: 0px;
+    left: 50px;
+}
+main{
+    position: relative;
+    top: 0;
+    z-index: 2;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(20, 99, 174, 0.33);
+}
+.mainContent_section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+}
+.headMainContent{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+.contentAside_container{
+    display: flex;
+    flex-direction: column;
+    gap: 31px;
+}
+.contentAside_card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+}
+.imageAside{
+    display: flex;
+    flex-direction: column;
+}
+.imageBillet{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 15px;
+}
+.contentAside{
+    max-width: 360px;
+    height: 616px;
+    background-color: #2280C3;
+    color: white;
+    padding: 5.09px 11px;
+    padding-block-end: 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+@media screen and (max-width:1200px) {
+    body::after{
+        background-size: 200px 175px;
+        width: 200px;
+        height: 175px;
+    }
+}
+@media screen and (max-width:786px) {
+    body::after{
+        display: none;
+    }
+}

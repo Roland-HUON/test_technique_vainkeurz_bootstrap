@@ -1,0 +1,83 @@
+.backgroundImage{
+    background-image: url(../../assets/images/classement_finale/obelixPrincipalBackgroundImage.png);
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    z-index: 2;
+    width: 100%;
+    height: 100vh;
+    opacity: 0.17;
+    max-width: 100%;
+}
+.backgroundOpacity{
+    background-color: rgba(255, 255, 255, 0.1);
+}
+.headClassementFinale--linear-gradient::before{
+    background-image: url('../../assets/effect/artifice.png');
+    background-size: 133.49px 121.65px;
+    display: inline-block;
+    width: 133.49px; 
+    height: 121.65px;
+    content:"";
+    position: absolute;
+    z-index: 3;
+    top: 45%;
+    right: -66px;
+}
+.headClassementFinale--linear-gradient::after{
+    background-image: url('../../assets/effect/artifice.png');
+    background-size: 133.49px 121.65px;
+    display: inline-block;
+    width: 133.49px; 
+    height: 121.65px;
+    content:"";
+    position: absolute;
+    z-index: 3;
+    bottom: -61px;
+    right: 38%;
+    overflow: hidden;
+}
+.headerClassementFinale_img{
+    padding: 10px 105px;
+}
+.attraction_img:first-child{
+    width: 198.22px;
+    height: 194.43px;
+    border-radius: 4.79px;
+}
+.attraction:nth-child(2)>.attraction_img{
+    width: 174.28px;
+    height: 162.5px;
+    border-radius: 4.06px;
+}
+.attraction:nth-child(3)>.attraction_img{
+    width: 141.72px;
+    height: 132.14px;
+    border-radius: 3.3px;
+}
+.lowSection_img{
+    border-radius: 30px;
+}
+.attraction_img:hover{
+    position: relative;
+    width: 100%;
+}
+.attraction:nth-child(2)>.attraction_img:hover{
+    position: relative;
+    width: 100%;
+}
+.attraction:nth-child(3)>.attraction_img:hover{
+    position: relative;
+    width: 100%;
+}
+@media screen and (max-width:1200px) {
+    .headerClassementFinale_img{
+        padding: 10px 50px;
+    }
+}
+@media screen and (max-width:768px){
+    .headerClassementFinale_img{
+        width: 30%;
+        height: auto;
+    }
+}

@@ -1,0 +1,75 @@
+.mainContent::before{
+    background-image: url('../../assets/images/home/logoParcAsterix.png');
+    background-size: 113px 77px;
+    display: inline-block;
+    width: 113px; 
+    height: 77px;
+    content:"";
+    position: absolute;
+    z-index: 5;
+    top: 22px;
+    right: 67px;
+}
+.mainContent::after{
+    background-image: url('../../assets/images/home/druide.svg');
+    background-size: 122px 243px;
+    display: inline-block;
+    width: 122px; 
+    height: 243px;
+    content:"";
+    position: absolute;
+    z-index: 5;
+    bottom: 100px;
+    right: 0;
+}
+.imageBillet::before{
+    background-image: url('../../assets/effect/artifice.png');
+    background-size: 78px 64px;
+    display: inline-block;
+    width: 78px; 
+    height: 64px;
+    content:"";
+    position: absolute;
+    z-index: 5;
+    top: 5.09px;
+    left: 11px;
+}
+.imageBillet::after{
+    background-image: url('../../assets/effect/artifice.png');
+    background-size: 65.93px 54.03px;
+    display: inline-block;
+    width: 65.93px; 
+    height: 54.03px;
+    content:"";
+    position: absolute;
+    z-index: 5;
+    top: 200px;
+    right: 11px;
+}
+.imageBillet>img{
+    height: 211.05px;
+    width: auto;
+}
+.imageBillet>img:nth-child(2){
+    transform: rotate(40deg);
+    margin-left: -40px;
+}
+.contentAside::before{
+    background-image: url('../../assets/images/home/stickers.svg');
+    background-size: 96.61px 97.82px;
+    display: inline-block;
+    width: 96.61px; 
+    height: 97.82px;
+    content:"";
+    position: absolute;
+    z-index: 3;
+    top: -50px;
+    right: -50px;
+    animation: rotate 8s linear infinite;
+}
+.mainContent>img{
+    width: 100%;
+    height: auto;
+    border-bottom-left-radius: 35% 44%;
+    border-bottom-right-radius: 62% 53%;
+}

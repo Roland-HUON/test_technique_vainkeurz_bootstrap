@@ -1,0 +1,35 @@
+.headMainContent_text{
+    font-family: 'Sharp Sans', sans-serif;
+    font-size: 14px;
+    line-height: 142.6%;
+    font-weight: 600;
+}
+.headMainContent_text>span{
+    font-weight: bold;
+}
+.mainContent_section_text{
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    color: #378F2A;
+}
+.mainContent_section_text>span{
+    font-weight: bold;
+}
+.contentAside_card_text{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+}
+.contentAside_card_text>span{
+    color: #70C2EF;
+}
+.contentAside>p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+}
+.contentAside>p>span{
+    color: #70C2EF;
+}

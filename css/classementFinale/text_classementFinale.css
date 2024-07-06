@@ -1,0 +1,67 @@
+h1{
+    position: absolute;
+    top: 14%;
+    left: 29%;
+    font-size: 16.96px;
+}
+h2{
+    font-size: 13.41px;
+    font-weight: bold;
+    font-family: 'Lato', sans-serif;
+    text-transform: uppercase;
+}
+
+.headClassementFinale_card_title{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 19px;
+    font-weight: 500;
+    color: #2170B7;
+    width: 80%;
+    text-transform: none;
+}
+.headClassementFinale_card_title>span{
+    font-weight: bold;
+}
+.social-icons_contains_text{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20.19px;
+    font-weight: 900;
+    color: #2170B7;
+}
+.social-icons_contains_text>span{
+    color: #72C3EE;
+}
+.lowContain_card_title{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 27.25px;
+    font-weight: bold;
+}
+.lowContain_card_text{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20.48px;
+    font-weight: 400;
+}
+.lowContain_card_text>span{
+    font-weight: bold;
+}
+@media screen and (max-width: 1200px){
+    .lowContain_card_title{
+        font-size: 20px;
+    }
+    h1{
+        top: 10%;
+        left: 32%;
+    }
+}
+@media screen and (max-width: 768px) {
+    h1{
+        top: 10%;
+        left: 18%;
+    }
+}
+@media screen and (max-width:500px) {
+    h1{
+        top: 4%;
+        left: 14%;
+    }
+}

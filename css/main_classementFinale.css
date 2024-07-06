@@ -1,0 +1,10 @@
+.lowSection{
+    border-radius: 10px;
+    flex-wrap: nowrap;
+    gap:23px;
+}
+.lowContain_btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
